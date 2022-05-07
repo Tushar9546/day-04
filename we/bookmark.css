@@ -1,0 +1,8 @@
+.deleteText {
+    color: red;
+    cursor: pointer;
+  }
+  .deleteText:hover{
+      background-color: red;
+      color:white;
+  }

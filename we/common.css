@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(248, 246, 246);
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.2%;
+  background-color: gray;
+  
+}
+
+#navbar> div {
+  display: flex;
+  list-style: none;
+}
+#navbar a {
+  text-decoration: none;
+  color: rgb(46, 80, 80);
+  font-size: 30px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+tr > th {
+  background-color: rgb(46, 80, 80);
+  color: white;
+}
